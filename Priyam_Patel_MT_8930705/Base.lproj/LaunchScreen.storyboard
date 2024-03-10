@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,80 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Screen Logo" translatesAutoresizingMaskIntoConstraints="NO" id="0EF-D8-oTg">
+                                <rect key="frame" x="0.0" y="59" width="393" height="363"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="uO7-VT-oxQ"/>
+                                    <constraint firstAttribute="height" constant="363" id="veu-MN-Vrf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MID-TERM PROJECT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-OT-J1z">
+                                <rect key="frame" x="65" y="519" width="263" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="263" id="EGZ-jy-LXg"/>
+                                    <constraint firstAttribute="height" constant="31" id="LbZ-K7-Ebs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
+                                <color key="textColor" red="0.20000001789999999" green="0.20000001789999999" blue="0.56862747670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Id: 8930705" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvw-EF-cHH">
+                                <rect key="frame" x="119" y="797" width="155" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6Zg-C5-vCa"/>
+                                    <constraint firstAttribute="width" constant="155" id="SHL-gk-JBr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( SEM-1 )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSf-8o-Cd5">
+                                <rect key="frame" x="149" y="558" width="95" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="BWo-Hd-DmM"/>
+                                    <constraint firstAttribute="width" constant="95" id="Fb2-7Z-ktF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© Priyam Patel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hop-bh-3ez">
+                                <rect key="frame" x="130" y="765" width="133.33333333333337" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133.33000000000001" id="qWc-uZ-NKe"/>
+                                    <constraint firstAttribute="height" constant="24" id="vxa-D6-OVZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.60741329749917161" green="0.82848794929034342" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WdL-OT-J1z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="56s-gv-PIf"/>
+                            <constraint firstItem="Hvw-EF-cHH" firstAttribute="top" secondItem="hop-bh-3ez" secondAttribute="bottom" constant="8" id="67V-8O-8wj"/>
+                            <constraint firstItem="eSf-8o-Cd5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bio-rq-cCj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hvw-EF-cHH" secondAttribute="bottom" id="Hv8-xD-68c"/>
+                            <constraint firstItem="eSf-8o-Cd5" firstAttribute="top" secondItem="WdL-OT-J1z" secondAttribute="bottom" constant="8" id="JCT-ik-6Qe"/>
+                            <constraint firstItem="0EF-D8-oTg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qd3-X2-Di2"/>
+                            <constraint firstItem="WdL-OT-J1z" firstAttribute="top" secondItem="0EF-D8-oTg" secondAttribute="bottom" constant="97" id="TDX-L8-H8o"/>
+                            <constraint firstItem="0EF-D8-oTg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V6J-5l-PuZ"/>
+                            <constraint firstItem="0EF-D8-oTg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZSQ-0S-WOU"/>
+                            <constraint firstItem="hop-bh-3ez" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bSh-Gi-6vd"/>
+                            <constraint firstItem="Hvw-EF-cHH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jxo-ld-wTC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Home Screen Logo" width="179" height="155"/>
+    </resources>
 </document>

@@ -163,7 +163,7 @@
                                     <segue destination="akA-9e-EDI" kind="show" id="oji-EF-4i8"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-quadratic-formula-and-the-values-of-discriminant-1024x655" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-pd-0Rz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quadratic" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-pd-0Rz">
                                 <rect key="frame" x="71.666666666666686" y="276" width="250" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="125" id="5bH-ev-A4h"/>
@@ -417,21 +417,21 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MrK-hJ-IpK" userLabel="Hobbies Stack">
                                 <rect key="frame" x="71.666666666666686" y="515" width="250" height="70"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cricket" translatesAutoresizingMaskIntoConstraints="NO" id="L7E-Oo-nqe" userLabel="Hobby_Cricket">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cricket" translatesAutoresizingMaskIntoConstraints="NO" id="L7E-Oo-nqe" userLabel="Hobby_Cricket">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="Erv-OI-Zx3"/>
                                             <constraint firstAttribute="height" constant="70" id="e5Z-nQ-MoF"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coding" translatesAutoresizingMaskIntoConstraints="NO" id="MEK-mU-Vfy" userLabel="Hobby_Coding">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Coding" translatesAutoresizingMaskIntoConstraints="NO" id="MEK-mU-Vfy" userLabel="Hobby_Coding">
                                         <rect key="frame" x="89.999999999999986" y="0.0" width="70.000000000000014" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="F7H-VW-wBh"/>
                                             <constraint firstAttribute="height" constant="70" id="Nvv-vf-ava"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-O6-mq1" userLabel="Hobby_Music">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Music" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-O6-mq1" userLabel="Hobby_Music">
                                         <rect key="frame" x="180" y="0.0" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="8g0-yt-1VA"/>
@@ -658,24 +658,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zfT-Aq-Ehz" userLabel="Lab2 Stack View">
-                                <rect key="frame" x="115.66666666666667" y="631" width="161.66666666666663" height="34.666666666666629"/>
+                                <rect key="frame" x="115.66666666666669" y="631" width="162" height="36"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lab 2: UI Controls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yus-WU-piF">
-                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666663" height="17.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lab 2: UI Controls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yus-WU-piF">
+                                        <rect key="frame" x="0.0" y="0.0" width="162" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="162" id="cLu-5P-Xnk"/>
+                                            <constraint firstAttribute="height" constant="18" id="yyw-I0-rI0"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Assignment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irj-ZW-vhN">
-                                        <rect key="frame" x="31.333333333333336" y="17.333333333333371" width="99.333333333333314" height="17.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assignment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irj-ZW-vhN">
+                                        <rect key="frame" x="30.999999999999986" y="18" width="100.00000000000001" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="5ft-eN-CJz"/>
+                                            <constraint firstAttribute="width" constant="100" id="k7j-ey-oGJ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="161.66999999999999" id="UWD-1d-O38"/>
-                                    <constraint firstAttribute="height" constant="34.670000000000002" id="WpP-1Z-8qb"/>
+                                    <constraint firstAttribute="height" constant="36" id="FIs-37-ow1"/>
+                                    <constraint firstAttribute="width" constant="162" id="gk2-x8-Rha"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -981,16 +989,16 @@
     </scenes>
     <resources>
         <image name="Canada" width="32" height="33.666667938232422"/>
+        <image name="Coding" width="120" height="120"/>
         <image name="Conestoga Logo" width="120.33333587646484" height="119"/>
+        <image name="Cricket" width="198.33332824707031" height="139.66667175292969"/>
         <image name="Lab 3" width="200" height="200"/>
+        <image name="Music" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="Quadratic" width="341.33334350585938" height="218.33332824707031"/>
         <image name="clipboard" catalog="system" width="98" height="128"/>
-        <image name="coding" width="120" height="120"/>
-        <image name="cricket" width="198.33332824707031" height="139.66667175292969"/>
         <image name="globe" catalog="system" width="128" height="123"/>
-        <image name="music" width="166.66667175292969" height="166.66667175292969"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="profile" width="400" height="533.33331298828125"/>
-        <image name="the-quadratic-formula-and-the-values-of-discriminant-1024x655" width="341.33334350585938" height="218.33332824707031"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
