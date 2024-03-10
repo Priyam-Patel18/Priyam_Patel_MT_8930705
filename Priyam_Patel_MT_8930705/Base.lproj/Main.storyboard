@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="height" constant="34" id="I6B-Xn-NFN"/>
                                     <constraint firstAttribute="width" secondItem="x7o-5A-Zql" secondAttribute="height" multiplier="110:17" id="x5r-yh-JRI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Charter-Italic" family="Charter" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                                 <connections>
                                     <action selector="countryInput:" destination="kmO-f3-7hR" eventType="editingDidEnd" id="5pk-hm-U9D"/>
@@ -125,7 +125,7 @@
         <scene sceneID="aHs-0W-SG1">
             <objects>
                 <navigationController id="FZV-sq-4Uk" userLabel="Function Navigation Controller" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="qcF-uN-D7r"/>
+                    <tabBarItem key="tabBarItem" title="Calculator" image="clipboard" catalog="system" id="qcF-uN-D7r"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wdZ-wM-kBA">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -277,6 +277,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Calculate">
                                     <fontDescription key="titleFontDescription" name="Charter-Roman" family="Charter" pointSize="17"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.68235301969999995" green="0.68235301969999995" blue="0.69803923369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="calculateResult:" destination="akA-9e-EDI" eventType="touchUpInside" id="OB4-qW-k5j"/>
@@ -293,15 +294,16 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Clear">
                                     <fontDescription key="titleFontDescription" name="Charter-Roman" family="Charter" pointSize="17"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.68235301969999995" green="0.68235301969999995" blue="0.69803923369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="clearInputs:" destination="akA-9e-EDI" eventType="touchUpInside" id="SpV-N0-kum"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invisible Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T61-3C-6Nc">
-                                <rect key="frame" x="25" y="416" width="330" height="122"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invisible Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T61-3C-6Nc">
+                                <rect key="frame" x="25" y="416" width="250" height="122"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="330" id="345-8u-E2y"/>
+                                    <constraint firstAttribute="width" constant="250" id="345-8u-E2y"/>
                                     <constraint firstAttribute="height" constant="122" id="FhT-11-y7E"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="14"/>
@@ -340,7 +342,7 @@
         <scene sceneID="G4u-ju-rDy">
             <objects>
                 <navigationController id="eCX-KD-Nui" userLabel="MyWork Navigation Controller" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="CN1-9s-Wvb"/>
+                    <tabBarItem key="tabBarItem" title="MyWork" image="pencil" catalog="system" id="CN1-9s-Wvb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CjQ-eN-Nji">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -365,6 +367,7 @@
                                 <rect key="frame" x="139.33333333333334" y="103" width="114.33333333333334" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="3L7-IN-3Fb"/>
+                                    <constraint firstAttribute="width" constant="114.33" id="Hzh-71-vd0"/>
                                     <constraint firstAttribute="width" constant="126" id="ms2-RI-9sd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="20"/>
@@ -398,6 +401,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies &amp; Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-T3-gH9">
                                 <rect key="frame" x="122.33333333333333" y="489" width="148.33333333333337" height="18"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="148.33000000000001" id="1XK-AA-Gs1"/>
                                     <constraint firstAttribute="height" constant="18" id="7Fw-9H-Rhj"/>
                                     <constraint firstAttribute="width" constant="174" id="Vpe-cq-xdW"/>
                                 </constraints>
@@ -441,12 +445,13 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TeS-ds-9VH" userLabel="Lab Buttons Stack">
-                                <rect key="frame" x="73.666666666666686" y="642" width="246" height="80"/>
+                                <rect key="frame" x="56.666666666666657" y="642" width="280" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X66-Og-BkG">
-                                        <rect key="frame" x="0.0" y="0.0" width="68.666666666666671" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="G1f-4T-4cm"/>
+                                            <constraint firstAttribute="width" constant="80" id="TF7-sp-v7y"/>
                                             <constraint firstAttribute="height" constant="80" id="vnq-ku-KEU"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
@@ -464,10 +469,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffi-YA-MrW">
-                                        <rect key="frame" x="88.666666666666657" y="0.0" width="68.666666666666657" height="80"/>
+                                        <rect key="frame" x="100" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="7Lp-Gu-Kdc"/>
                                             <constraint firstAttribute="width" constant="80" id="rWw-tu-Sqs"/>
+                                            <constraint firstAttribute="width" constant="80" id="xVP-05-1N2"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Lab 3">
@@ -484,10 +490,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrC-ni-Nzi">
-                                        <rect key="frame" x="177.33333333333331" y="0.0" width="68.666666666666686" height="80"/>
+                                        <rect key="frame" x="200.00000000000003" y="0.0" width="79.999999999999972" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="Mjt-OH-DOW"/>
                                             <constraint firstAttribute="width" constant="80" id="cVg-P1-Pjf"/>
+                                            <constraint firstAttribute="width" constant="80" id="grQ-Mz-WxF"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Lab 4">
@@ -504,6 +511,10 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="FKr-u9-X3A"/>
+                                    <constraint firstAttribute="height" constant="80" id="GTh-7l-1Jj"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -625,6 +636,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Step = 2">
                                             <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
+                                            <color key="baseBackgroundColor" red="0.94509804249999996" green="0.60392159219999997" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="stepIncreaseButton:" destination="3hr-ik-bcP" eventType="touchUpInside" id="Wwd-Mw-MVX"/>
@@ -649,7 +661,7 @@
                                 <rect key="frame" x="115.66666666666667" y="631" width="161.66666666666663" height="34.666666666666629"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lab 2: UI Controls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yus-WU-piF">
-                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="17.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666663" height="17.333333333333332"/>
                                         <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -725,6 +737,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Add">
                                             <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="addBtn:" destination="tB5-o8-maf" eventType="touchUpInside" id="rTs-wi-umD"/>
@@ -742,6 +755,7 @@
                                         <state key="normal" title="Submit"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Submit">
                                             <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.39607840779999998" green="0.76862752440000004" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="submtButton:" destination="tB5-o8-maf" eventType="touchUpInside" id="mOb-tt-HJr"/>
@@ -757,6 +771,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Clear">
                                             <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.92941176889999999" green="0.42745098469999998" blue="0.45098042490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="clrButton:" destination="tB5-o8-maf" eventType="touchUpInside" id="l6Z-wR-JME"/>
@@ -845,10 +860,10 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invisible Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg8-nI-MVe">
-                                <rect key="frame" x="150.33333333333334" y="603" width="92.666666666666657" height="12.333333333333371"/>
+                                <rect key="frame" x="71.666666666666686" y="603" width="250" height="12.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45" id="800-cX-jpP"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="Aa3-Tu-Aks"/>
+                                    <constraint firstAttribute="width" constant="250" id="Aa3-Tu-Aks"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
