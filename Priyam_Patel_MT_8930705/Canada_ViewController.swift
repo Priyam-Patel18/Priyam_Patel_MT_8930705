@@ -21,43 +21,35 @@ class Canada_ViewController: UIViewController {
             invisibleErrorLabel.isHidden = false
             invisibleErrorLabel.textColor = UIColor.red
             invisibleErrorLabel.text = "Please Enter Something!"
-            print("Showing Error")
         }
         else if(countryInput.text?.lowercased() == "calgary"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Calgary")
-            print("Showing Image of Calgary")
         }
         else if(countryInput.text?.lowercased() == "halifax"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Halifax")
-            print("Showing Image of Halifax")
         }
         else if(countryInput.text?.lowercased() == "montreal"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Montreal")
-            print("Showing Image of Montreal")
         }
         else if(countryInput.text?.lowercased() == "toronto"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Toronto")
-            print("Showing Image of Toronto")
         }
         else if(countryInput.text?.lowercased() == "vancouver"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Vancouver")
-            print("Showing Image of Vancouver")
         }
         else if(countryInput.text?.lowercased() == "winnipeg"){
             invisibleErrorLabel.isHidden = true
             cityImage.image = UIImage(named: "Winnipeg")
-            print("Showing Image of Winnipeg")
         }
         else{
             invisibleErrorLabel.isHidden = false
             invisibleErrorLabel.textColor = UIColor.red
             invisibleErrorLabel.text = "Enter Valid City Name!"
-            print("Showing Error")
         }
     }
     
