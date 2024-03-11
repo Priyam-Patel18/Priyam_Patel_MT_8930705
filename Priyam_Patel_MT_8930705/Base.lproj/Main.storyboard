@@ -69,7 +69,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esr-Ru-eHE">
-                                <rect key="frame" x="84" y="508" width="225" height="80"/>
+                                <rect key="frame" x="84" y="511" width="225" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="g6E-iM-eF5"/>
                                     <constraint firstAttribute="width" constant="225" id="uC0-Hl-AaS"/>
@@ -85,9 +85,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invisible Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tuo-l7-TEi">
-                                <rect key="frame" x="71.666666666666686" y="438" width="250" height="12"/>
+                                <rect key="frame" x="71.666666666666686" y="438" width="250" height="15"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="12" id="Ac1-n9-ebm"/>
+                                    <constraint firstAttribute="height" constant="15" id="Ac1-n9-ebm"/>
                                     <constraint firstAttribute="width" constant="250" id="Fpk-QK-q8z"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="12"/>
@@ -379,31 +379,19 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9x-6R-JfB">
-                                <rect key="frame" x="76.666666666666686" y="135" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9x-6R-JfB">
+                                <rect key="frame" x="76.666666666666686" y="135" width="240" height="215"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Djo-U1-OYq"/>
-                                    <constraint firstAttribute="height" constant="128" id="XLr-1v-DF6"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="215" id="KAk-EV-QB8"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="kgq-ha-eRm"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bVM-GL-MPU">
-                                <rect key="frame" x="76.666666666666686" y="271" width="240" height="210"/>
-                                <color key="backgroundColor" red="0.90588235859999999" green="0.90980386729999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="XyZ-4u-pN4"/>
-                                    <constraint firstAttribute="height" constant="210" id="zwF-gd-9tW"/>
-                                </constraints>
-                                <string key="text">Diligent and highly motivated individual with a strong work ethic, seeking a part-time/full-time position where I can contribute my hardworking nature to benefit the company.  Known for a proactive approach to tasks, I am committed to delivering exceptional results. Quick to adapt and learn, I thrive in fast-paced environments and excel at meeting deadlines.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies &amp; Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-T3-gH9">
-                                <rect key="frame" x="122.33333333333333" y="489" width="148.33333333333337" height="18"/>
+                                <rect key="frame" x="122.33333333333333" y="525" width="148.33333333333337" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="148.33000000000001" id="1XK-AA-Gs1"/>
-                                    <constraint firstAttribute="height" constant="18" id="7Fw-9H-Rhj"/>
+                                    <constraint firstAttribute="width" constant="148.33000000000001" id="Cgb-gh-E7K"/>
                                     <constraint firstAttribute="width" constant="174" id="Vpe-cq-xdW"/>
+                                    <constraint firstAttribute="height" constant="20" id="Xq4-KQ-qGc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -415,7 +403,7 @@
                                 </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MrK-hJ-IpK" userLabel="Hobbies Stack">
-                                <rect key="frame" x="71.666666666666686" y="515" width="250" height="70"/>
+                                <rect key="frame" x="71.666666666666686" y="551" width="250" height="70"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cricket" translatesAutoresizingMaskIntoConstraints="NO" id="L7E-Oo-nqe" userLabel="Hobby_Cricket">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -440,12 +428,12 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="9jQ-eP-W7c"/>
-                                    <constraint firstAttribute="width" constant="250" id="ABg-0m-O9n"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="9jQ-eP-W7c"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="ABg-0m-O9n"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TeS-ds-9VH" userLabel="Lab Buttons Stack">
-                                <rect key="frame" x="56.666666666666657" y="642" width="280" height="80"/>
+                                <rect key="frame" x="56.666666666666657" y="676" width="280" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X66-Og-BkG">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -512,8 +500,59 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="FKr-u9-X3A"/>
-                                    <constraint firstAttribute="height" constant="80" id="GTh-7l-1Jj"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="280" id="FKr-u9-X3A"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="GTh-7l-1Jj"/>
+                                </constraints>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bVM-GL-MPU">
+                                <rect key="frame" x="76.666666666666686" y="358" width="240" height="150"/>
+                                <color key="backgroundColor" red="0.90588235859999999" green="0.90980386729999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="1dc-EQ-VrY"/>
+                                    <constraint firstAttribute="height" constant="150" id="czT-BV-dm4"/>
+                                </constraints>
+                                <string key="text">Diligent and highly motivated individual with a strong work ethic, seeking a part-time/full-time position where I can contribute my hardworking nature to benefit the company.  Known for a proactive approach to tasks, I am committed to delivering exceptional results.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="rjp-5i-6iK">
+                                <rect key="frame" x="85.333333333333329" y="629" width="222.33333333333337" height="13.666666666666629"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cricket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsT-VP-Aga">
+                                        <rect key="frame" x="0.0" y="0.0" width="36.333333333333336" height="13.666666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13.67" id="MOk-1g-Rgb"/>
+                                            <constraint firstAttribute="width" constant="36.329999999999998" id="VjI-Z1-826"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBM-Xw-HIH">
+                                        <rect key="frame" x="96.333333333333329" y="0.0" width="35.999999999999986" height="13.666666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13.67" id="kXK-tS-2wz"/>
+                                            <constraint firstAttribute="width" constant="36" id="nVp-Zg-zSm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPI-XK-sFw">
+                                        <rect key="frame" x="192.33333333333337" y="0.0" width="30" height="13.666666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13.67" id="X6f-OJ-EqB"/>
+                                            <constraint firstAttribute="width" constant="30" id="ZSN-0E-Ydl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222.33000000000001" id="f2B-r6-KVc"/>
+                                    <constraint firstAttribute="height" constant="13.67" id="mXq-eD-RrS"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -523,16 +562,18 @@
                             <constraint firstItem="TeS-ds-9VH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1S9-ey-VYi"/>
                             <constraint firstItem="6Th-T3-gH9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="29h-Dr-eyg"/>
                             <constraint firstItem="zui-Fm-qGV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3Jx-3L-Kd1"/>
+                            <constraint firstItem="bVM-GL-MPU" firstAttribute="top" secondItem="Z9x-6R-JfB" secondAttribute="bottom" constant="8" id="3iq-2h-xAk"/>
                             <constraint firstItem="bVM-GL-MPU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8b9-Wa-4UF"/>
-                            <constraint firstItem="MrK-hJ-IpK" firstAttribute="top" secondItem="6Th-T3-gH9" secondAttribute="bottom" constant="8" id="9ya-Ho-Puq"/>
-                            <constraint firstItem="6Th-T3-gH9" firstAttribute="top" secondItem="bVM-GL-MPU" secondAttribute="bottom" constant="8" id="JuB-F6-TKW"/>
-                            <constraint firstItem="Z9x-6R-JfB" firstAttribute="top" secondItem="zui-Fm-qGV" secondAttribute="bottom" constant="8" id="KwL-OB-KO4"/>
+                            <constraint firstItem="MrK-hJ-IpK" firstAttribute="top" secondItem="6Th-T3-gH9" secondAttribute="bottom" constant="6" id="DNp-ec-AS7"/>
+                            <constraint firstItem="Z9x-6R-JfB" firstAttribute="top" secondItem="zui-Fm-qGV" secondAttribute="bottom" constant="8" id="Dl1-3a-iJc"/>
                             <constraint firstItem="Z9x-6R-JfB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O3b-OK-947"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TeS-ds-9VH" secondAttribute="bottom" constant="52" id="UUe-6t-tlZ"/>
                             <constraint firstItem="MrK-hJ-IpK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xqg-e6-OwP"/>
+                            <constraint firstItem="rjp-5i-6iK" firstAttribute="top" secondItem="MrK-hJ-IpK" secondAttribute="bottom" constant="8" id="a6N-tP-VXA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TeS-ds-9VH" secondAttribute="bottom" constant="13" id="ezj-sY-deH"/>
+                            <constraint firstItem="TeS-ds-9VH" firstAttribute="top" secondItem="rjp-5i-6iK" secondAttribute="bottom" constant="33.329999999999998" id="kmd-W5-dMU"/>
                             <constraint firstItem="zui-Fm-qGV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o3o-ww-HCQ"/>
-                            <constraint firstItem="bVM-GL-MPU" firstAttribute="top" secondItem="Z9x-6R-JfB" secondAttribute="bottom" constant="8" id="rUR-gM-eG4"/>
-                            <constraint firstItem="TeS-ds-9VH" firstAttribute="top" secondItem="MrK-hJ-IpK" secondAttribute="bottom" constant="57" id="wVv-KR-XnA"/>
+                            <constraint firstItem="6Th-T3-gH9" firstAttribute="top" secondItem="bVM-GL-MPU" secondAttribute="bottom" constant="17" id="wQ1-li-pHP"/>
+                            <constraint firstItem="rjp-5i-6iK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y2R-zv-ci4"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="MyWork" image="pencil" catalog="system" id="VPC-DF-9Pw"/>
@@ -1003,19 +1044,19 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
