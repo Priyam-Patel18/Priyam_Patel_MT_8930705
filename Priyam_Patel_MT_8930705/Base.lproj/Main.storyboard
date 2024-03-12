@@ -119,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HCs-qE-ctZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="-346"/>
+            <point key="canvasLocation" x="1189" y="-333"/>
         </scene>
         <!--Function Navigation Controller-->
         <scene sceneID="aHs-0W-SG1">
@@ -141,7 +141,7 @@
         <!--Function-->
         <scene sceneID="l7p-gA-vbY">
             <objects>
-                <viewController id="bh3-G0-Trj" userLabel="Function" sceneMemberID="viewController">
+                <viewController id="bh3-G0-Trj" userLabel="Function" customClass="Function_ViewController" customModule="Priyam_Patel_MT_8930705" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fO8-Ve-SoK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,7 +358,7 @@
         <!--MyLabs-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="MyLabs" customClass="ViewController" customModule="Priyam_Patel_MT_8930705" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="MyLabs" customClass="MyLabs_ViewController" customModule="Priyam_Patel_MT_8930705" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -379,7 +379,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9x-6R-JfB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9x-6R-JfB" userLabel="Profile">
                                 <rect key="frame" x="76.666666666666686" y="135" width="240" height="215"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="215" id="KAk-EV-QB8"/>
@@ -433,18 +433,18 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TeS-ds-9VH" userLabel="Lab Buttons Stack">
-                                <rect key="frame" x="56.666666666666657" y="676" width="280" height="80"/>
+                                <rect key="frame" x="121.66666666666669" y="676" width="150" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X66-Og-BkG">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="G1f-4T-4cm"/>
-                                            <constraint firstAttribute="width" constant="80" id="TF7-sp-v7y"/>
+                                            <constraint firstAttribute="width" constant="150" id="TF7-sp-v7y"/>
                                             <constraint firstAttribute="height" constant="80" id="vnq-ku-KEU"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Lab 2">
-                                            <fontDescription key="titleFontDescription" name="Cochin-Bold" family="Cochin" pointSize="18"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="My Labs">
+                                            <fontDescription key="titleFontDescription" name="Cochin-Bold" family="Cochin" pointSize="20"/>
                                             <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <variation key="default">
@@ -454,48 +454,6 @@
                                         </variation>
                                         <connections>
                                             <segue destination="3hr-ik-bcP" kind="show" id="GhT-zI-Ayr"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffi-YA-MrW">
-                                        <rect key="frame" x="100" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="7Lp-Gu-Kdc"/>
-                                            <constraint firstAttribute="width" constant="80" id="rWw-tu-Sqs"/>
-                                            <constraint firstAttribute="width" constant="80" id="xVP-05-1N2"/>
-                                        </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Lab 3">
-                                            <fontDescription key="titleFontDescription" name="Cochin-Bold" family="Cochin" pointSize="18"/>
-                                            <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="rWw-tu-Sqs"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="tB5-o8-maf" kind="show" id="Y68-mu-d6W"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrC-ni-Nzi">
-                                        <rect key="frame" x="200.00000000000003" y="0.0" width="79.999999999999972" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="Mjt-OH-DOW"/>
-                                            <constraint firstAttribute="width" constant="80" id="cVg-P1-Pjf"/>
-                                            <constraint firstAttribute="width" constant="80" id="grQ-Mz-WxF"/>
-                                        </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Lab 4">
-                                            <fontDescription key="titleFontDescription" name="Cochin-Bold" family="Cochin" pointSize="18"/>
-                                            <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="cVg-P1-Pjf"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="NZg-iH-seZ" kind="show" id="MjY-hf-lw9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -745,7 +703,13 @@
                             <constraint firstItem="2jN-DQ-q4g" firstAttribute="top" secondItem="NGo-Cc-Dus" secondAttribute="top" constant="32" id="uSe-UL-PpD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="LAB 2" id="8HT-Vw-0d6"/>
+                    <navigationItem key="navigationItem" title="LAB 2" id="8HT-Vw-0d6">
+                        <barButtonItem key="rightBarButtonItem" title="Lab 3" id="xkF-C8-Xfq">
+                            <connections>
+                                <segue destination="tB5-o8-maf" kind="show" id="G7B-mu-jVi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="image" destination="2jN-DQ-q4g" id="65f-Oa-gTU"/>
                         <outlet property="opLabel" destination="1Bv-Ue-ila" id="9Em-sM-Q3N"/>
@@ -935,7 +899,13 @@
                             <constraint firstItem="9hd-nH-eKl" firstAttribute="top" secondItem="h6f-hg-qhh" secondAttribute="top" id="s0b-Sz-piT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="LAB 3" id="MHk-ii-Nus"/>
+                    <navigationItem key="navigationItem" title="LAB 3" id="MHk-ii-Nus">
+                        <barButtonItem key="rightBarButtonItem" title="Lab 4" id="lgr-WY-AAs">
+                            <connections>
+                                <segue destination="NZg-iH-seZ" kind="show" id="VwR-kq-Ztp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="age" destination="jhR-gC-2pu" id="494-NX-ReH"/>
                         <outlet property="country" destination="BQY-Nd-Tin" id="pia-Sk-t4W"/>
@@ -1044,19 +1014,19 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

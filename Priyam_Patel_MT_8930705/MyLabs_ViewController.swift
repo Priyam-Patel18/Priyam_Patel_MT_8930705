@@ -1,17 +1,14 @@
 //
-//  ViewController.swift
+//  MyLabs_ViewController.swift
 //  Priyam_Patel_MT_8930705
 //
-//  Created by PRIYAM PATEL on 03/03/24.
+//  Created by PRIYAM PATEL on 11/03/24.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyLabs_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
 }
-
